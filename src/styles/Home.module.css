@@ -1,0 +1,125 @@
+.productsContainer {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto;
+   margin-Right: 1vw; 
+   margin-left: -15px;
+  column-gap: 1vw;
+  margin-top: 5vw;
+ 
+ 
+  
+}
+
+.homecard {
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-left: 1vw;
+ 
+  
+}
+
+.pic :hover{
+  transform: scale(1.1);
+  
+}
+.image {
+object-fit: contain;
+margin-left: 2vw;
+
+}
+
+.cardinfo {
+  text-align: center;
+  padding-top: 4px;
+  line-height: 15px;
+  
+ 
+}
+
+.btn {
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+}
+
+.carousel{
+  margin-top: 10vw;
+}
+.row {
+  border: 2px solid;
+  margin: 1vw;
+  height: 10vw;
+}
+.col{
+  background-color:blue;
+}
+
+.modal{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+
+}
+.description{
+  text-justify: right;
+
+}
+.mainModal{
+  border-radius: 20px;
+  border: 2px solid red;
+}
+.main{
+  margin-top: 1vw;
+  min-height:50vw;
+  
+}
+
+.Info{
+  font-size: 40px;
+  display:grid;
+  grid-template-columns: auto auto auto auto;
+  padding-left: 15%;
+  margin-top: 2vw;
+  height:7vw;
+   
+  
+}
+
+.icon{
+  display: inline-block;
+  border-radius: 60px;
+  height:70px;
+  width:70px;
+  box-shadow: 0 0 5px rgb(0, 0, 0);
+  padding-left: 15px;
+  padding-top:6px;
+  
+  
+}
+
+.icon p{
+  font-size: 9px;
+  padding-left: 0;
+}
+
+.words{
+  text-align: center;
+  color: lightgray;
+}
+
+.addbtn{
+ 
+  background-color: black;
+  color: white;
+}
+
+.sort{
+   margin-top: 5vw;
+   height: 4vw;
+   border: 1px solid lightgray;
+}
+.sorter{
+width: 15vw;
+ float: right;
+ margin: 8px;
+}

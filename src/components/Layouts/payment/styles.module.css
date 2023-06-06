@@ -1,0 +1,106 @@
+.Footer {
+    display: grid;
+    grid-template-columns: 25vw 25vw 25vw 25vw;
+    background: rgb(0, 0, 0);
+    padding-top: 0.5vw;
+    text-align: center;
+    margin-top: 1vw;
+    color: rgb(255, 255, 255); 
+    border-top: 1px solid #000000;
+    position:sticky;
+    bottom:0;
+  
+  }
+  
+  .Footer h5{
+    color: white;
+  }
+  
+  .nav {
+    padding: 0.5vw 0  ;
+    display: flex;
+    justify-content:space-around ;
+    align-items: center; 
+    border-bottom: 1px solid rgb(176, 175, 175);
+    position: fixed;
+    top: 0;
+    width:100%;
+    overflow: hidden; 
+    z-index: 1;
+   background-color: rgb(0, 0, 0);
+  
+     
+  }
+  .nav a {
+    text-decoration: none;
+    color:white;
+    font-size: 17px;
+    
+  }
+  
+  .nav a:hover {
+    color:aqua
+  
+  }
+  .nav .logo {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .carouselImg{
+   height: 25vw;
+   width:100vw;
+  }
+  
+  .content{
+    box-sizing: border-box;
+     overflow-x: hidden;
+    /* max-height: 90vw; */ 
+  
+  }
+  
+  .carousel{
+    margin-top: 3vw;
+    height: 20vw;
+    background:none;
+  }
+  
+  .search{
+    width:30vw;
+    margin-right: 4vw;
+  }
+  
+  .category{
+    margin-Right:5vw;
+  }
+  
+  .menu{
+    display: grid;
+    grid-template-columns: auto auto auto;
+   
+    
+  }
+  
+  .menu a{
+    font-size: 50px;
+    
+    /* border-radius: 2px;
+    width: 1vw;
+    height:1vw; */
+  }
+  .back{
+    margin-right: auto ;
+    margin-left: 1vw;
+    
+  }
+
+  .help{
+    margin-left: auto;
+    margin-right: 1vw;
+    
+  }
+  .logoImg{
+    height: 3rem;
+    width:6rem;
+  } 
+  

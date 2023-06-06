@@ -1,0 +1,54 @@
+
+
+.title{
+    font-weight: bolder ;
+    font-size: 40px;
+    margin-left: 0.5vw;
+  
+}
+
+.para{
+ font-weight: 10px;
+ text-align: justify;
+ margin: 1vw;
+ margin-left: 0.5vw;
+}
+
+.logo{
+    font-weight: bold;
+font-size:20px;
+color: white;
+margin-left: auto;
+ 
+}
+
+.info{
+    position:absolute;
+    margin-top: -22vw;
+    margin-left: 0.5vw;
+}
+.title2{
+    font-weight: bold; 
+    font-size: large;
+    margin-left: 0.5vw;
+}
+.para1{
+    font-weight: bold;
+    text-align: justify;
+    color: white;
+    margin-left: 0.5vw;
+   
+   }
+
+   .header{
+    background-color: black;
+    display: flex;
+   }
+   .header a{
+    color: white;
+   }
+   .logoImg{
+    height: 4rem;
+    width:6rem;
+  } 
+  

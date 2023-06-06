@@ -1,0 +1,29 @@
+.cardWrapper{
+    padding-top: 40px;
+    box-sizing: border-box;
+    width:96vw;
+    margin-left:2vw;
+    margin-right:2vw;
+    /* color:white;
+    text-decoration-color: white; */
+     
+}
+
+.card{
+    text-align: center;
+    background-color: black;
+    height: 15vw;
+    color:white; 
+    font-size: 35px ;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 5px grey;
+   
+}
+
+.card h1{
+    color:rgb(201, 201, 201); 
+    font-size: 20px ;
+   
+
+}

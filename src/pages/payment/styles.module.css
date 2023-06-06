@@ -1,0 +1,66 @@
+.container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin-left: 2vw;
+    margin-top: -2vw;
+    min-height: 41vw;
+
+
+}
+
+.card {
+    width: 50vw;
+}
+
+.Mcard {
+    width: 55vw;
+}
+
+.summary {
+    font-size: 18px;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.amount {
+    float: right;
+
+}
+
+.buttons {
+    margin-top: 2vw;
+    margin-top: 2vw;
+    width: 100%;
+
+
+}
+
+.total {
+    font-weight: bold;
+    border-top: 1px solid rgb(207, 207, 207);
+}
+
+.bank :hover{
+    transform: scale(1.1);
+}
+
+.cont{
+
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+
+.col{
+    background-image: linear-gradient(black, gray);
+    background-color: #b6b6b6 ;
+    height: 12vw;
+    margin-top: -8vw;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    box-shadow: 2px 2px 5px 2px  rgb(29, 29, 29);
+
+}
